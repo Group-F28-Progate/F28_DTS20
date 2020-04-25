@@ -1,0 +1,60 @@
+@media all and (max-width: 1000px){
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+
+  .menu-icon{
+    color: indigo;
+  }
+
+  .lesson {
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 670px){
+  .header-right{
+    display : none;
+  }
+
+  .top-wrapper{
+    text-align : left;
+  }
+
+  .top-wrapper h1{
+    font-size : 20px;
+    line-height : 30px;
+  }
+
+  .top-wrapper p{
+    font-size : 14px;
+    line-height: 20px;
+  }
+
+  .menu-icon{
+    display: block;
+    color: white;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  .heading h2{
+    font-weight : bold;
+    font-size : 20px;
+  }
+
+  .heading h3{
+    font-size : 16px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
