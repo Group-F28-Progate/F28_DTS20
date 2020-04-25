@@ -151,12 +151,22 @@ header {
 }
 
 .btn {
-  padding: 12px 24px;
+  width: 80px;
+  height: 80px;
   color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
+  font-family: arial Black;
+  border-radius: 35px;
+  background-color: #254a99;
+  animation-name: example;
+  animation-duration: 12s;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(15, 141, 150);}
+  25%  {background-color: rgb(20, 153, 20);}
+  50%  {background-color: aqua;}
+  75%  {background-color: blue;}
+  100% {background-color: #17367a;}
 }
 
 .btn:hover {
