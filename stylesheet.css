@@ -186,6 +186,39 @@ header {
   box-shadow: none;
 }
 
+.contact-form {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.section-title {
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+input, textarea{
+  width: 400px;
+  margin-top : 10px;
+  margin-bottom : 30px;
+  padding : 20px;
+  font-size : 18px;
+  border : 1px solid #dee7ec;
+}
+
+.note-message{
+  color : tomato;
+}
+
+.btn-critic {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
