@@ -186,6 +186,43 @@ header {
   box-shadow: none;
 }
 
+.btn2 {
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-family: arial Black;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #254a99;
+  animation-name: example;
+  animation-duration: 12s;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(15, 141, 150);}
+  25%  {background-color: rgb(20, 153, 20);}
+  50%  {background-color: aqua;}
+  75%  {background-color: blue;}
+  100% {background-color: #17367a;}
+}
+
+.btn2:hover {
+  opacity: 1;
+}
+
+.critic {
+  padding: 8px 40px;
+  background-color: indigo;
+  cursor: pointer;
+  box-shadow: 0 7px gray;
+}
+
+.critic:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+
 .contact-form {
   padding-top: 100px;
   padding-bottom: 50px;
