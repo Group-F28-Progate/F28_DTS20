@@ -7,13 +7,13 @@
     <link rel="icon" type="images/png" href="logo2.png">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">    
   </head>
   <body>
     <header>
-      <div id="home" class="container scrollspy">
+      <div id="home" class="container">
         <div class="header-left">
-          <img class="logo" src="logo.png">
+          <img href="#home" class="logo" src="logo.png">
         </div>
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
@@ -35,7 +35,7 @@
       </div>
     </section>
 
-      <div id="tentang" class="lesson-wrapper scrollspy">
+    <div id="tentang" class="lesson-wrapper">
       <div class="container">
         <div class="heading">
           <h2>Profil developer team F28</h2>
@@ -53,14 +53,14 @@
               <img src="maulana.JPG">
               <p>Maulana Malik Pane</p>
             </div>
-            <p class="text-contents">Saya maulana tinggal di kota Medan. Dari kelompok F28</p>
+            <p class="text-contents">Saya maulana tinggal di kota Medan, Sumatera Utara.</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
               <img src="mohammad andry.JPG">
               <p>Mohammad Andry S.</p>
             </div>
-            <p class="text-contents">Nama saya Mohammad Andri S. dari kelompok F28</p>
+            <p class="text-contents">Nama saya M. Andry Surya H. dari kelompok F28, seorang mahasiswa di Pasuruan</p>
           </div>
           <div class="lesson">
             <div class="lesson-icon">
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div id="komitmen" class="message-wrapper scrollspy">
+    <div id="komitmen" class="message-wrapper">
       <div class="container">
         <div class="heading">
           <h2>Kami siap untuk menjadi programmer handal.</h2>
@@ -103,20 +103,14 @@
 
         <p class="note-message">* Harap isi email & pesan sebelum dikirim</p>
         <!-- Tambahkan tag <input> -->
-        <input type="submit" name="kirim" class="btn2 critic" value="Kirim">
+        <input type="submit" name="kirim" class="btn-critic message" value="Kirim">
     </div>
 
     <footer>
       <div class="container">
-        <img href="#home" src="footer.png">
+        <img src="footer.png">
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
-    <script>
-      const scroll = document.querySelectorAll('.scrollspy');
-        M.ScrollSpy.init(scroll, {
-          scrolloffset: 50
-        });
-    </script>
   </body>
 </html>
