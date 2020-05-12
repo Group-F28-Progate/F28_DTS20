@@ -15,6 +15,9 @@
   .heading h2 {
     font-size: 20px;
   }
+   .isiemail{
+    width: 95%;
+  }
 }
 
 @media all and (max-width: 670px){
